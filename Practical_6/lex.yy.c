@@ -362,7 +362,7 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 ".\\p6.l"
+#line 1 "p6.l"
 #define INITIAL 0
 #line 368 "lex.yy.c"
 
@@ -515,7 +515,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 1 ".\\p6.l"
+#line 1 "p6.l"
 
 #line 521 "lex.yy.c"
 
@@ -602,32 +602,32 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 2 ".\\p6.l"
+#line 2 "p6.l"
 {return 'a';}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 3 ".\\p6.l"
+#line 3 "p6.l"
 {return yytext[0];}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 4 ".\\p6.l"
+#line 4 "p6.l"
 {return ',';}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 5 ".\\p6.l"
+#line 5 "p6.l"
 ; // Ignore whitespace
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 6 ".\\p6.l"
-{return yytext[0];} // Return any other character
+#line 6 "p6.l"
+{return yytext[0];}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 7 ".\\p6.l"
+#line 7 "p6.l"
 ECHO;
 	YY_BREAK
 #line 634 "lex.yy.c"
@@ -1516,11 +1516,11 @@ int main()
 	return 0;
 	}
 #endif
-#line 7 ".\\p6.l"
+#line 7 "p6.l"
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // Include string.h for strlen
+#include <string.h>
 
 // Function declarations
 int S();

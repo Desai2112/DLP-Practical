@@ -3,11 +3,11 @@
 [()] {return yytext[0];}
 [,] {return ',';}
 [ \t\n]+ ; // Ignore whitespace
-. {return yytext[0];} // Return any other character
+. {return yytext[0];}
 %%
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // Include string.h for strlen
+#include <string.h>
 
 // Function declarations
 int S();
